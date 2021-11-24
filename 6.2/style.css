@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    flex-grow: 1;
+    background-color: yellow;
+}
+article {
+    height: 100%;
+    flex-grow: 3;
+    background-color: thistle;
+}
+aside {
+    height: 100%;
+    flex-grow: 1;
+    background-color: azure;
+}
+footer {
+    width: 100%;
+    flex-grow: 1;
+    background-color: yellowgreen;
+}
+.main-container {
+    width: 100%;
+    height: 48vw;
+    display: flex;
+    border: 1px solid black;
+}
+.navigation {
+    flex-grow: 1;
+    height: 100%;
+    background-color: gray;
+}
+.flex-container {
+    flex-grow: 5;
+    display: flex;
+    background: honeydew;
+    flex-direction: column;
+}
+.content {
+    flex-grow: 5;
+    display: flex;
+}
